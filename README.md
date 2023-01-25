@@ -10,9 +10,10 @@ https://www.kaggle.com/competitions/sf-dst-scoring
 
 **Входные данные** 
 - data/train.csv - выборка с данными о заемщиках и факт наличия или отсутствия дефолта; 
-- data/test.csv - выборка с данными о заемщиках, по которым нужно определить вероятность дефолта.
+- data/test.csv - выборка с данными о заемщиках, по которым нужно определить вероятность дефолта;
+- data/sample_submission.csv - шаблон ответа результатов на проверку в kaggle-competition
 
-Работа представлена в файле credit-scoring-version-alexey-95.ipynb
+Работа представлена в файле notebooks/credit-scoring-version-alexey-95.ipynb
 
 ### Оценка 
 Распределение мест участников составляется по лучшему показателю площади под кривой ROC AUC.
